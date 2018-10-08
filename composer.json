@@ -1,0 +1,17 @@
+{
+    "name": "prospress/hosts-helper",
+    "description": "Helper classes for dealing with particular hosting providers.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Pry",
+            "email": "JPry@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Prospress\\Hosts\\": "src/"
+        }
+    },
+    "require": {}
+}
