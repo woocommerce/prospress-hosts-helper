@@ -13,5 +13,15 @@
             "Prospress\\Hosts\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "php": "^5.3 || ^7.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.9"
+    },
+    "config": {
+        "platform": {
+            "php": "5.3"
+        }
+    }
 }
