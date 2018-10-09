@@ -1,0 +1,16 @@
+# Default behavior, to override core.autocrlf.
+* text=auto
+
+# Specific file types need line endings handled.
+*.php text
+*.xml text
+
+# Mark the composer.lock file as binary to simplify diffs.
+composer.lock binary
+
+# Mark files/directories to ignore when generating an archive.
+.idea export-ignore
+tests export-ignore
+*.iml export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
