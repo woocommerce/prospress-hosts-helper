@@ -37,7 +37,7 @@ final class WPEngine implements HostInterface, KillsQueries
             return false;
         }
 
-        return remove_filter('query', array(WPE_Query_Governator::instance(), 'check_and_govern'));
+        return remove_filter('query', array(\WPE_Query_Governator::instance(), 'check_and_govern'));
     }
 
     /**
@@ -51,7 +51,7 @@ final class WPEngine implements HostInterface, KillsQueries
             return false;
         }
 
-        return add_filter('query', array(WPE_Query_Governator::instance(), 'check_and_govern'));
+        return add_filter('query', array(\WPE_Query_Governator::instance(), 'check_and_govern'));
     }
 
     /**
