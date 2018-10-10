@@ -55,7 +55,8 @@ final class Helper
      */
     public static function areQueriesKilled()
     {
-        if (!class_implements(self::getHost(), __NAMESPACE__ . '\\KillsQueries')) {
+        $implements = class_implements(self::getHost());
+        if (!array_key_exists(__NAMESPACE__ . '\\KillsQueries', $implements)) {
             return false;
         }
 

@@ -19,6 +19,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 **Fixed**
 **Security**
 
+## v1.0.2 &ndash; 2018-10-10
+
+**Fixed**
+* Incorrect usage of `class_implements()`.
+
 ## v1.0.1 &ndash; 2018-10-10
 
 **Added**
